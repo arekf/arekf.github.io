@@ -1,0 +1,70 @@
+.content {
+  padding: 2em;
+}
+
+.header {
+  color: rgb(60, 60, 60);
+  font-family: 'Merriweather';
+  width: 100%;
+}
+
+.header .title {
+  float: left;
+}
+
+.header h1 {
+  color: rgb(2, 110, 113);
+  font-weight: 700;
+  margin: 5px 0;
+}
+
+.header h2 {
+  line-height: 1.3em;
+  margin: 20px 0;
+  max-width: 470px;
+  padding-bottom: 10px;
+}
+
+.header .photo img {
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 50%;
+  box-shadow: 1px 1px 4px rgb(138, 138, 138);
+  width: 112px;
+}
+
+.header::after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
+.info {
+  margin-top: 30px;
+  max-width: 600px;
+  text-align: justify;
+}
+
+.info .title {
+  border-bottom: 1px solid rgb(2, 110, 113);
+  color: rgb(2, 110, 113);
+  font-family: 'Merriweather', serif;
+  font-size: 1em;
+  margin: 0 0;
+  padding-bottom: 6px;
+  text-transform: uppercase;
+}
+
+.info p {
+  color: rgb(60, 60, 60);
+  font-family: -apple-system, BlinkMacSystemFont, 'Arial';
+  line-height: 24px;
+}
+
+.info a {
+  color: rgb(5, 136, 255);
+  text-decoration: none;
+}
+
+.info a:hover {
+  text-decoration: underline;
+}
